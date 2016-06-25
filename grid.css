@@ -19,12 +19,12 @@
         float: left;
         min-height: 1px; 
         /*-- our gutter -- */
-        padding: 12px; 
-        background-color: #FFDCDC;
+        padding: 12px;
+        box-sizing: border-box;
     }
 
 /*Column Widths*/
-	.col-1{
+    .col-1{
         width: 8.33%; 
     }
     .col-2{
@@ -43,9 +43,9 @@
         width: 49.98%;
     }  
 
-   	.col-7{
-      	  width: 58.31%; 
-      	}
+    .col-7{
+          width: 58.31%; 
+        }
     .col-8{
         width: 33.33%; 
     }
@@ -77,7 +77,7 @@
 
 
     /*Six Columns*/
-	/*.col-1{
+    /*.col-1{
         width: 16.66%; 
     }
     .col-2{
@@ -95,25 +95,6 @@
     .col-6{
         width: 100%;
     }  */
-
-
-
-
-
-
-
-/*Column Gutters*/	
-.grid-container *{
-        box-sizing: border-box; 
-    }
-
-    [class*='col-'] {
-        float: left;
-        min-height: 1px; 
-        width: 16.66%; 
-        /*-- our gutter --*/
-        padding: 12px;
-    }
 
 
 /*Responsiveness*/
